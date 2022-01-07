@@ -35,7 +35,7 @@ export const ServiceCard = ({ src, heading, body, tech, dataAos }) => {
   return (
     <div data-aos={dataAos} className="card">
       <div>
-        <img src={src} alt="" className="img-fluid float-left" width="80" />
+        {src}
         <div className="float-right">{tech}</div>
       </div>
 

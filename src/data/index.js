@@ -1,3 +1,15 @@
+import { FaNodeJs } from "react-icons/fa";
+import { GrReactjs } from "react-icons/gr";
+import {
+  SiRedux,
+  SiFirebase,
+  SiTailwindcss,
+  SiVuedotjs,
+  SiSolidity,
+  SiGithub,
+  SiMongodb,
+} from "react-icons/si";
+
 export const projectData = [
   {
     dataAos: "fade-up",
@@ -5,33 +17,33 @@ export const projectData = [
     name: "Midleman",
     description:
       "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
-    link: "https://parapayhome.web.app/",
-    gitLink: "https://github.com/Chuksremi15",
+    link: "http://midlman-frontend.vercel.app/",
+    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
   },
   {
     dataAos: "fade-up",
     img: `./img/projects/teensnft.jpg`,
     name: "Teens NFT",
     description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
-    link: "https://parapayhome.web.app/",
-    gitLink: "https://github.com/Chuksremi15",
+      "TeensNft is born with the primary objective to run an all-inclusive Nft project; thereby giving everyone the privilege to build up enormous generational wealth which apparently will stand the test of time.",
+    link: "https://www.teensnfts.art/",
+    gitLink: "https://github.com/teensnfts/TeensNFT-Website",
   },
   {
     dataAos: "fade-up",
     img: `./img/projects/farmgrid.jpg`,
-    name: "Parapay",
+    name: "Farm Grid",
     description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
-    link: "https://parapayhome.web.app/",
-    gitLink: "https://github.com/Chuksremi15",
+      "FarmGrid an organization of agricultural, health and Tech experts that promotes One health by assisting farmers: rural, commercial, small and large scale farmers and beginners achieve their goal of healthy and safe food production.",
+    link: "http://airdrop.farmgrid.org/farm",
+    gitLink: "https://github.com/FarmGridAfrica/farmgrid-farming-frontend",
   },
   {
     dataAos: "fade-up",
     img: `./img/projects/parapayhome.jpg`,
     name: "Parapay",
     description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
+      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. I built using React, the animations were achieved with third party libery.",
     link: "https://parapayhome.web.app/",
     gitLink: "https://github.com/Chuksremi15",
   },
@@ -58,23 +70,65 @@ export const projectData = [
 export const serviceData = [
   {
     dataAos: "fade-up",
-    src: "./img/icons/icons8-web-design-96.png",
-    heading: "Web Design",
-    body: "A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website.",
-    tech: "FIGMA",
+    src: <FaNodeJs className="service-icon" />,
+    heading: "NodeJS",
+    body: "",
+    tech: "NODEJS",
   },
   {
     dataAos: "fade-up",
-    src: "./img/icons/icons8-css3-96.png",
-    heading: "Web Development",
-    body: "  Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.",
-    tech: "CSS3",
-  },
-  {
-    dataAos: "fade-up",
-    src: "./img/icons/icons8-react-native-96.png",
-    heading: "React Development",
-    body: "React makes it painless to create interactive UIs. Design simple  views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+    src: <GrReactjs className="service-icon" />,
+    heading: "React",
+    body: " ",
     tech: "REACTJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiFirebase className="service-icon" />,
+    heading: "Firebase",
+    body: "",
+    tech: "FIREBASE",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiRedux className="service-icon" />,
+    heading: "Redux Saga",
+    body: "",
+    tech: "REDUXJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiTailwindcss className="service-icon" />,
+    heading: "Tailwindcss",
+    body: "",
+    tech: "TAILWIND",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiVuedotjs className="service-icon" />,
+    heading: "VueJS",
+    body: "",
+    tech: "VUEJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiSolidity className="service-icon" />,
+    heading: "Solidity",
+    body: "",
+    tech: "SOLIDITY",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiGithub className="service-icon" />,
+    heading: "GIT",
+    body: "",
+    tech: "GIT",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiMongodb className="service-icon" />,
+    heading: "Mongodb",
+    body: "",
+    tech: "MONGODB",
   },
 ];

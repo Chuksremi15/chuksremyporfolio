@@ -36,30 +36,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="service">
-        <div className="container">
-          <h1 className="services-heading">MY SERVICES</h1>
-          <div className="line"></div>
-          <div className="services">
-            {serviceData.map(({ src, heading, body, tech, dataAos }) => (
-              <ServiceCard
-                dataAos={dataAos}
-                src={src}
-                heading={heading}
-                body={body}
-                tech={tech}
-              />
-            ))}
-          </div>
-
-          <div className="d-flex">
-            <Link to="/services" className="btn-medium">
-              View All Services
-            </Link>
-          </div>
-        </div>
-      </section>
-
       <section className="project">
         <div className="container">
           <h1 className="services-heading">MY PROJECTS</h1>
@@ -85,6 +61,31 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="service">
+        <div className="container">
+          <h1 className="services-heading">MY SKILLS</h1>
+          <div className="line"></div>
+          <div className="services">
+            {serviceData.map(({ src, heading, body, tech, dataAos }) => (
+              <ServiceCard
+                dataAos={dataAos}
+                src={src}
+                heading={heading}
+                body={body}
+                tech={tech}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="service">
+        <div className="container">
+          <h1 className="services-heading">Journey</h1>
+          <div className="line"></div>
+        </div>
+      </section> */}
       <Footer />
     </div>
   );

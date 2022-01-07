@@ -32,7 +32,7 @@ const Footer = () => {
       <div class="foot">
         <div class="container">
           <div class="row">
-            <p>Copyright 2021 &copy; ChuksRemy</p>
+            <p>Copyright 2022 &copy; ChuksRemy</p>
           </div>
         </div>
       </div>
