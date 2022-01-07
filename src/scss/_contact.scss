@@ -1,0 +1,25 @@
+.contact {
+  margin-top: 150px;
+
+  & .card {
+    border-top: 6px $secondary-color solid;
+    padding: 50px 50px;
+    margin-bottom: 40px;
+
+    & h4 {
+      color: $dark;
+      font-size: 34px;
+      font-weight: bolder;
+    }
+    & h1 {
+      color: $secondary-color;
+      font-size: 32px;
+      font-weight: bolder;
+    }
+    & p {
+      color: $gray;
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+}
