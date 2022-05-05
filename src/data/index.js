@@ -1,4 +1,4 @@
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaHardHat, FaEthereum } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
 import {
   SiRedux,
@@ -8,9 +8,39 @@ import {
   SiSolidity,
   SiGithub,
   SiMongodb,
+  SiHiveBlockchain,
 } from "react-icons/si";
 
 export const projectData = [
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/omitchstake.png`,
+    name: "Omitch Staking App",
+    description:
+      "Omitch staking app allows stakers deposite their stable coins into the protocol to back bets, in exchange stakers earn APY and partake in protocols profit and loss",
+    link: "https://stake.omitch.com/",
+    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
+    techStack: ["React", "Solidity", "Ethers"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/mdlman.jpg`,
+    name: "Midleman",
+    description:
+      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
+    link: "http://midlman-frontend.vercel.app/",
+    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
+    techStack: ["React", "Solidity", "Ethers"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/mdlman.jpg`,
+    name: "Midleman",
+    description:
+      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
+    link: "http://midlman-frontend.vercel.app/",
+    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
+  },
   {
     dataAos: "fade-up",
     img: `./img/projects/mdlman.jpg`,
@@ -47,24 +77,6 @@ export const projectData = [
     link: "https://parapayhome.web.app/",
     gitLink: "https://github.com/Chuksremi15",
   },
-  {
-    dataAos: "fade-up",
-    img: "./img/projects/paulukonu.jpg",
-    name: "Paul Ukonu",
-    description:
-      "A sleek, animated, and well-designed photography website for celebrity Photography Paul Ukonu. One of my favorite projects. The carousel effect and design were achieved by customizing the root bootstrap code. The design was done with Figma.",
-    link: "https://paulukonu.com",
-    gitLink: "https://github.com/Chuksremi15",
-  },
-  {
-    dataAos: "fade-up",
-    img: "./img/projects/zoomfx.jpg",
-    name: "Zoomfx",
-    description:
-      "MERN stack forex investment site. This project includes an admin section. The methods used are ingenious. I used Redux for state management. This project really challenged my thought process but I excelled and learned a lot along the way.",
-    link: "https://cryptic-taiga-82883.herokuapp.com/",
-    gitLink: "https://github.com/Chuksremi15",
-  },
 ];
 
 export const serviceData = [
@@ -84,15 +96,29 @@ export const serviceData = [
   },
   {
     dataAos: "fade-up",
-    src: <SiFirebase className="service-icon" />,
-    heading: "Firebase",
+    src: <SiSolidity className="service-icon" />,
+    heading: "Solidity",
     body: "",
-    tech: "FIREBASE",
+    tech: "SOLIDITY",
   },
   {
     dataAos: "fade-up",
     src: <SiRedux className="service-icon" />,
     heading: "Redux Saga",
+    body: "",
+    tech: "REDUXJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <SiHiveBlockchain className="service-icon" />,
+    heading: "Blockchain",
+    body: "",
+    tech: "REDUXJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <FaHardHat className="service-icon" />,
+    heading: "Hardhat",
     body: "",
     tech: "REDUXJS",
   },
@@ -110,13 +136,7 @@ export const serviceData = [
     body: "",
     tech: "VUEJS",
   },
-  {
-    dataAos: "fade-up",
-    src: <SiSolidity className="service-icon" />,
-    heading: "Solidity",
-    body: "",
-    tech: "SOLIDITY",
-  },
+
   {
     dataAos: "fade-up",
     src: <SiGithub className="service-icon" />,
@@ -126,8 +146,22 @@ export const serviceData = [
   },
   {
     dataAos: "fade-up",
+    src: <SiFirebase className="service-icon" />,
+    heading: "Firebase",
+    body: "",
+    tech: "FIREBASE",
+  },
+  {
+    dataAos: "fade-up",
     src: <SiMongodb className="service-icon" />,
     heading: "Mongodb",
+    body: "",
+    tech: "MONGODB",
+  },
+  {
+    dataAos: "fade-up",
+    src: <FaEthereum className="service-icon" />,
+    heading: "Ethereum",
     body: "",
     tech: "MONGODB",
   },

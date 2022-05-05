@@ -85,6 +85,7 @@ p {
   font-weight: bolder;
   color: $gray;
 }
+
 .line {
   height: 4px;
   width: 100%;
@@ -97,11 +98,17 @@ p {
   margin-bottom: 70px;
 }
 
-.services,
 .projects {
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.services {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }

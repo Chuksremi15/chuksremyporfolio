@@ -34,13 +34,8 @@ export const ProjectCard = ({
 export const ServiceCard = ({ src, heading, body, tech, dataAos }) => {
   return (
     <div data-aos={dataAos} className="card">
-      <div>
-        {src}
-        <div className="float-right">{tech}</div>
-      </div>
-
-      <h1 className="mt-3">{heading}</h1>
-      <p>{body}</p>
+      <div>{src}</div>
+      <h5 className="mt-3">{heading}</h5>
     </div>
   );
 };

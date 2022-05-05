@@ -299,8 +299,13 @@
     }
   }
 
-  .services,
   .projects {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+  .services {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -497,12 +502,19 @@
     margin-bottom: 70px;
   }
 
-  .services,
   .projects {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 30px;
+  }
+
+  .services {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
   }
 
   .footer-content {

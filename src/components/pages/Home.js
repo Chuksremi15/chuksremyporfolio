@@ -21,10 +21,7 @@ const Home = () => {
         <div className="container showcase-content">
           <div data-aos={"fade-right"} className="showcase-text">
             <h1>Go further with Remy.</h1>
-            <p>
-              Javascript enthusiast. I create bespoke websites and webapps to
-              help you go further online.
-            </p>
+            <p>Javascript enthusiast. Solidity dev.</p>
             <Link to="/projects" className="btn-large">
               My Projects
             </Link>
@@ -54,11 +51,11 @@ const Home = () => {
               )
             )}
           </div>
-          <div className="d-flex">
+          {/* <div className="d-flex">
             <Link to="/projects" className="btn-medium">
               View All Projects
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 

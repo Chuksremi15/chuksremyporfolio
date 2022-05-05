@@ -11,7 +11,7 @@ const Resume = () => {
               <span>Email:</span> Chuksremi15@gmail.com
             </h2>
             <h2>
-              <span>Phone:</span> +2349058641510
+              <span>Phone:</span> +2348160564759
             </h2>
             <h2>
               <span>Address:</span> New Heaven, Enugu
