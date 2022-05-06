@@ -71,7 +71,7 @@ const About = () => {
             <div class="about-image">
               <img src="./img/chuks2.jpg" alt="" class="img-fluid" />
             </div>
-            <p class="text-center photo-caption">Outdoor photo at school</p>
+            <p class="text-center photo-caption">Outdoor photo</p>
           </div>
         </div>
       </section>

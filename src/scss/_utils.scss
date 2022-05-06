@@ -97,13 +97,15 @@ img {
   padding: 50% 0;
   position: relative;
   cursor: pointer;
-  border-radius: 5px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
 
   & > img {
     width: 150%;
     position: absolute;
     top: 0;
     left: -80px;
-    border-radius: 5px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
   }
 }

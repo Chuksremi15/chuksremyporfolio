@@ -21,8 +21,8 @@ function App() {
       <ScrollToTheTop />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/services" component={Services} />
+        {/* <Route exact path="/projects" component={Projects} /> */}
+        {/* <Route exact path="/services" component={Services} /> */}
         <Route exact path="/process" component={Process} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />

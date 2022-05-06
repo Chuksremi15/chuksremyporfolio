@@ -11,7 +11,7 @@ const Home = () => {
   let app = useRef(null);
 
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
@@ -21,10 +21,10 @@ const Home = () => {
         <div className="container showcase-content">
           <div data-aos={"fade-right"} className="showcase-text">
             <h1>Go further with Remy.</h1>
-            <p>Javascript enthusiast. Solidity dev.</p>
-            <Link to="/projects" className="btn-large">
+            <p>Javascript, Solidity and Blockchain enthusiast...</p>
+            <a href="/#projects" className="btn-large">
               My Projects
-            </Link>
+            </a>
           </div>
 
           <div data-aos={"zoom-in"} className="showcase-image">
@@ -33,13 +33,21 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="project">
+      <section id="projects" className="project">
         <div className="container">
           <h1 className="services-heading">MY PROJECTS</h1>
           <div className="line"></div>
           <div className="projects">
             {projectData.map(
-              ({ img, name, description, link, gitLink, dataAos }) => (
+              ({
+                img,
+                name,
+                description,
+                link,
+                gitLink,
+                dataAos,
+                techStack,
+              }) => (
                 <ProjectCard
                   dataAos={dataAos}
                   img={img}
@@ -47,6 +55,7 @@ const Home = () => {
                   description={description}
                   link={link}
                   gitLink={dataAos}
+                  techStack={techStack}
                 />
               )
             )}

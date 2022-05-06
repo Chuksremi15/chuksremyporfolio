@@ -5,6 +5,7 @@ export const ProjectCard = ({
   link,
   gitLink,
   dataAos,
+  techStack,
 }) => {
   return (
     <div data-aos={dataAos} className="card">
@@ -15,9 +16,9 @@ export const ProjectCard = ({
       <h1 className="mt-3">{name}</h1>
       <p className="description">{description}</p>
       <div className="tech-stack">
-        <p>NodeJS</p>
-        <p>ReactJS</p>
-        <p>Redux</p>
+        {techStack.map((stack, index) => (
+          <p key={index}>{stack}</p>
+        ))}
       </div>
       <div>
         <a href={link} className="btn-card">

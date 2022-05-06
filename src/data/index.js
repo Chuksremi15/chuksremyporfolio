@@ -19,7 +19,27 @@ export const projectData = [
     description:
       "Omitch staking app allows stakers deposite their stable coins into the protocol to back bets, in exchange stakers earn APY and partake in protocols profit and loss",
     link: "https://stake.omitch.com/",
-    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Solidity", "Ethers"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/omitchapp.png`,
+    name: "Omitch App",
+    description:
+      "Omitchbet adopts the modern decentralised wallets tech to solve the problems associated with KYC and complex payouts method rampant in the TradBet systems.",
+    link: "https://app.omitch.com/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Solidity", "Ethers"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/omitchwebsite.png`,
+    name: "Omitch Website",
+    description:
+      "Omitchbet adopts the modern decentralised wallets tech to solve the problems associated with KYC and complex payouts method rampant in the TradBet systems.",
+    link: "https://omitch.com/",
+    gitLink: "https://github.com/chuksremi15",
     techStack: ["React", "Solidity", "Ethers"],
   },
   {
@@ -27,29 +47,12 @@ export const projectData = [
     img: `./img/projects/mdlman.jpg`,
     name: "Midleman",
     description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
+      "Midl Man caters to all sorts of pharmaceutical needs by connecting buyers and sellers with the best quality products, at the best prices, and in the fastest possible time.",
     link: "http://midlman-frontend.vercel.app/",
     gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
-    techStack: ["React", "Solidity", "Ethers"],
+    techStack: ["React", "Nodejs"],
   },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/mdlman.jpg`,
-    name: "Midleman",
-    description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
-    link: "http://midlman-frontend.vercel.app/",
-    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/mdlman.jpg`,
-    name: "Midleman",
-    description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The website was developed using React, the animations were achieved with third party libery.",
-    link: "http://midlman-frontend.vercel.app/",
-    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
-  },
+  ,
   {
     dataAos: "fade-up",
     img: `./img/projects/teensnft.jpg`,
@@ -58,6 +61,7 @@ export const projectData = [
       "TeensNft is born with the primary objective to run an all-inclusive Nft project; thereby giving everyone the privilege to build up enormous generational wealth which apparently will stand the test of time.",
     link: "https://www.teensnfts.art/",
     gitLink: "https://github.com/teensnfts/TeensNFT-Website",
+    techStack: ["React", "Nodejs"],
   },
   {
     dataAos: "fade-up",
@@ -67,6 +71,7 @@ export const projectData = [
       "FarmGrid an organization of agricultural, health and Tech experts that promotes One health by assisting farmers: rural, commercial, small and large scale farmers and beginners achieve their goal of healthy and safe food production.",
     link: "http://airdrop.farmgrid.org/farm",
     gitLink: "https://github.com/FarmGridAfrica/farmgrid-farming-frontend",
+    techStack: ["React", "Nodejs"],
   },
   {
     dataAos: "fade-up",
@@ -76,6 +81,7 @@ export const projectData = [
       "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. I built using React, the animations were achieved with third party libery.",
     link: "https://parapayhome.web.app/",
     gitLink: "https://github.com/Chuksremi15",
+    techStack: ["React", "Nodejs"],
   },
 ];
 
