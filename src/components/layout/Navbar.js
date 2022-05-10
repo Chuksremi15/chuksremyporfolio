@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import cv from "../../chukwuemekaRemigiusCV.pdf";
+import cv from "../../chuksremyCV.pdf";
 
 const Navbar = () => {
   const [navData, setNavData] = useState({

@@ -26,7 +26,7 @@ function App() {
         <Route exact path="/process" component={Process} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/resume" component={Resume} />
+        {/* <Route exact path="/resume" component={Resume} /> */}
       </Switch>
     </Router>
   );
