@@ -22,10 +22,10 @@ export const ProjectCard = ({
       </div>
       <div>
         <a href={link} className="btn-card">
-          <i className="fas fa-eye"></i> Visit
+          Visit
         </a>
         <a href={gitLink} className="float-right btn-icon">
-          <i className="fab fa-github"></i> Github
+          Github
         </a>
       </div>
     </div>
