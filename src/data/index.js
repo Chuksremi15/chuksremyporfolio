@@ -44,17 +44,6 @@ export const projectData = [
   },
   {
     dataAos: "fade-up",
-    img: `./img/projects/mdlman.jpg`,
-    name: "Midleman",
-    description:
-      "Midl Man caters to all sorts of pharmaceutical needs by connecting buyers and sellers with the best quality products, at the best prices, and in the fastest possible time.",
-    link: "http://midlman-frontend.vercel.app/",
-    gitLink: "https://github.com/CodexpathCommunity/midlman-frontend",
-    techStack: ["React", "Nodejs", "Redux"],
-  },
-  ,
-  {
-    dataAos: "fade-up",
     img: `./img/projects/teensnft.jpg`,
     name: "Teens NFT",
     description:
