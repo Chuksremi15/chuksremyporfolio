@@ -54,13 +54,13 @@ export const projectData = [
   },
   {
     dataAos: "fade-up",
-    img: `./img/projects/farmgrid.jpg`,
-    name: "Farm Grid",
+    img: `./img/projects/babylondao.png`,
+    name: "Babylon Dao",
     description:
-      "FarmGrid an organization of agricultural, health and Tech experts that promotes One health by assisting farmers: rural, commercial, small and large scale farmers and beginners achieve their goal of healthy and safe food production.",
-    link: "http://airdrop.farmgrid.org/farm",
-    gitLink: "https://github.com/FarmGridAfrica/farmgrid-farming-frontend",
-    techStack: ["React", "Nodejs", "Redux"],
+      "Babylon dao is staking dao on solana. A community owned decentralized infrastructure bringing stability and transparency to the world of finance. The first staking dao on solana ",
+    link: "https://www.teensnfts.art/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Ethers", "Web3JS"],
   },
   {
     dataAos: "fade-up",
