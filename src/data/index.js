@@ -58,7 +58,7 @@ export const projectData = [
     name: "Babylon Dao",
     description:
       "Babylon dao is staking dao on solana. A community owned decentralized infrastructure bringing stability and transparency to the world of finance. The first staking dao on solana ",
-    link: "https://www.teensnfts.art/",
+    link: "https://www.babylondao.finance/#/",
     gitLink: "https://github.com/chuksremi15",
     techStack: ["React", "Ethers", "Web3JS"],
   },
