@@ -69,7 +69,7 @@ const About = () => {
           </div>
           <div>
             <div class="about-image">
-              <img src="./img/chuks2.jpg" alt="" class="img-fluid" />
+              <img src="./img/chuks2.jpeg" alt="" class="img-fluid" />
             </div>
             <p class="text-center photo-caption">Outdoor photo</p>
           </div>
@@ -107,7 +107,7 @@ const About = () => {
                 simple.
               </p>
               <p>
-                I’ve spent about 3 years trying to perfect what I do and while
+                I’ve spent about 5 years trying to perfect what I do and while
                 I’ll never be perfect, I do my best to come close.
               </p>
               <p>

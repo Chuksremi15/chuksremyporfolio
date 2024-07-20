@@ -21,7 +21,7 @@ const Resume = () => {
           <div class="resume-content">
             <h2>JavaScript and Solidity Developer</h2>
             <p>
-              3 years plus of software development in JavaScript and it’s
+              5 years plus of software development in JavaScript and it’s
               frameworks specifically React, Vue, and Node.js. Within this time,
               I’ve built several MERN Stack applications, mini-projects and an
               admin front-end for a fintech. About a year of learning and

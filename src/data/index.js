@@ -1,5 +1,6 @@
 import { FaNodeJs, FaHardHat, FaEthereum } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
+import { RiNextjsLine } from "react-icons/ri";
 import {
   SiRedux,
   SiFirebase,
@@ -14,53 +15,52 @@ import {
 export const projectData = [
   {
     dataAos: "fade-up",
-    img: `./img/projects/omitchstake.png`,
-    name: "Omitch Staking App",
+    img: `./img/projects/aimovement.jpg`,
+    name: "AI Movement",
     description:
-      "Omitch staking app allows stakers deposite their stable coins into the protocol to back bets, in exchange stakers earn APY and partake in protocols profit and loss",
-    link: "https://stake.omitch.com/",
+      "AI Movement is a community of private and institutional investors, technology experts that seek to identify, understand, and resolve core humanitarian issues through advanced technology.",
+    link: "https://aimovement.tech/",
     gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Solidity", "Ethers"],
+    techStack: ["React", "Redux", "Node.js"],
   },
   {
     dataAos: "fade-up",
-    img: `./img/projects/omitchapp.png`,
-    name: "Omitch App",
-    description:
-      "Omitchbet adopts the modern decentralised wallets tech to solve the problems associated with KYC and complex payouts method rampant in the TradBet systems.",
-    link: "https://app.omitch.com/",
-    gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Solidity", "Ethers"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/omitchwebsite.png`,
-    name: "Omitch Website",
-    description:
-      "Omitchbet adopts the modern decentralised wallets tech to solve the problems associated with KYC and complex payouts method rampant in the TradBet systems.",
-    link: "https://omitch.com/",
-    gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Solidity", "Ethers"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/teensnft.jpg`,
-    name: "Teens NFT",
-    description:
-      "TeensNft is born with the primary objective to run an all-inclusive Nft project; thereby giving everyone the privilege to build up enormous generational wealth which apparently will stand the test of time.",
-    link: "https://www.teensnfts.art/",
+    img: `./img/projects/kachijamesgallery.jpg`,
+    name: "Kachi James Gallery",
+    description: "Art gallery website",
+    link: "https://kachijames.com/",
     gitLink: "https://github.com/teensnfts/TeensNFT-Website",
-    techStack: ["Solidity", "React", "Web3JS"],
+    techStack: ["React", "Redux", "Node.js"],
   },
   {
     dataAos: "fade-up",
-    img: `./img/projects/babylondao.png`,
-    name: "Babylon Dao",
+    img: `./img/projects/carbonenswallet.png`,
+    name: "Carbon ENS crypto wallet",
     description:
-      "Babylon dao is staking dao on solana. A community owned decentralized infrastructure bringing stability and transparency to the world of finance. The first staking dao on solana ",
-    link: "https://www.babylondao.finance/#/",
+      "carbon ens crypto wallet aims to make the transfer of crypto assets easier by prefixing a name the user selects to carbon.eth and registering it on ENS as a sub-name under carbon.eth.",
+    link: "https://carbonenswallet.web.app/",
     gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Ethers", "Web3JS"],
+    techStack: ["React", "Solidity", "Ethers"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/afrochives.jpg`,
+    name: "Afrochives Studio",
+    description:
+      "Afrochives Studio is a media and content studio. Our mission is  to inform, educate, entertain and inspire audiences around the world through Afro-centric stories.",
+    link: "https://afrochives.studio/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/contyn.jpg`,
+    name: "Contyn protocol",
+    description:
+      "Contyn.io is an nft based community with the primary aim of expanding the horizon of nfts with fashion, adding business value and viable use cases is the core aim of contyn.io.  ",
+    link: "https://contynprotocol.web.app/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Ethers", "Web3.js"],
   },
   {
     dataAos: "fade-up",
@@ -78,14 +78,21 @@ export const serviceData = [
   {
     dataAos: "fade-up",
     src: <FaNodeJs className="service-icon" />,
-    heading: "NodeJS",
+    heading: "Node.js",
     body: "",
-    tech: "NODEJS",
+    tech: "NODE.JS",
   },
   {
     dataAos: "fade-up",
     src: <GrReactjs className="service-icon" />,
     heading: "React",
+    body: " ",
+    tech: "REACTJS",
+  },
+  {
+    dataAos: "fade-up",
+    src: <RiNextjsLine className="service-icon" />,
+    heading: "Next.js",
     body: " ",
     tech: "REACTJS",
   },
@@ -99,7 +106,7 @@ export const serviceData = [
   {
     dataAos: "fade-up",
     src: <SiRedux className="service-icon" />,
-    heading: "Redux Saga",
+    heading: "Redux",
     body: "",
     tech: "REDUXJS",
   },
@@ -150,13 +157,6 @@ export const serviceData = [
     dataAos: "fade-up",
     src: <SiMongodb className="service-icon" />,
     heading: "Mongodb",
-    body: "",
-    tech: "MONGODB",
-  },
-  {
-    dataAos: "fade-up",
-    src: <FaEthereum className="service-icon" />,
-    heading: "Ethereum",
     body: "",
     tech: "MONGODB",
   },

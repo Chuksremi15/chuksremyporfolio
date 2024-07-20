@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import cv from "../../ChuksRemyCV.pdf";
+import cv from "../../chuksremicv.pdf";
 
 const Navbar = () => {
   const [navData, setNavData] = useState({
@@ -34,7 +34,7 @@ const Navbar = () => {
               <span className="bar"></span>
             </div>
             <ul className={active ? "active nav-menu" : "nav-menu"}>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/process"
                   className="nav-links"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 >
                   Process
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/about"

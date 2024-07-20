@@ -21,10 +21,10 @@ export const ProjectCard = ({
         ))}
       </div>
       <div>
-        <a href={link} className="btn-card">
+        <a target="_blank" href={link} className="btn-card">
           Visit
         </a>
-        <a href={gitLink} className="float-right btn-icon">
+        <a target="_blank" href={gitLink} className="float-right btn-icon">
           Github
         </a>
       </div>

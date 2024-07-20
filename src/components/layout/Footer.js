@@ -14,16 +14,22 @@ const Footer = () => {
             </Link>
           </div>
           <div class="footer-icons">
-            <a href="https://mail.google.com/mail/u/chuksremi15@gmail.com">
+            <a
+              target="_blank"
+              href="https://mail.google.com/mail/u/chuksremi15@gmail.com"
+            >
               <i class="fas fa-envelope"></i> ON EMAIL
             </a>
-            <a href="https://www.linkedin.com/in/chukwuemeka-remigius-a5785b129/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/chukwuemeka-remigius-a5785b129/"
+            >
               <i class="fab fa-linkedin"></i> ON LINKEDIN
             </a>
-            <a href="https://github.com/Chuksremi15">
+            <a target="_blank" href="https://github.com/Chuksremi15">
               <i class="fab fa-github"></i> ON GITHUB
             </a>
-            <a href="https://twitter.com/chuksremi">
+            <a target="_blank" href="https://twitter.com/chuksremi">
               <i class="fab fa-twitter"></i> ON TWITTER
             </a>
           </div>

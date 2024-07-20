@@ -58,7 +58,7 @@
     }
 
     & > p {
-      font-size: 28px;
+      font-size: 20px;
       margin: 25px 0 40px 0;
     }
   }
@@ -272,7 +272,7 @@
       content: "";
       position: absolute;
       height: 100px;
-      top: 830px;
+      top: 820px;
       right: 0;
       left: 0;
       background-color: $primary-color;
@@ -286,16 +286,16 @@
   .showcase-image {
     background-color: $dark;
     position: relative;
-    width: 400px;
+    width: 295px;
     height: 400px;
     border-radius: 5px;
     margin: 20px auto;
     & > img {
       position: absolute;
-      border-radius: 5px;
+      border-radius: 20px;
       height: 400px;
-      left: 50px;
-      top: 50px;
+      left: 0px;
+      top: 0px;
     }
   }
 
@@ -413,7 +413,7 @@
     }
   }
   .showcase {
-    height: 800px;
+    height: 970px;
     background-color: $primary-color;
     color: $light-gray;
     margin-top: 150px;
@@ -424,7 +424,7 @@
       content: "";
       position: absolute;
       height: 50px;
-      top: 780px;
+      top: 950px;
       right: 0;
       left: 0;
       background-color: $primary-color;
@@ -438,16 +438,16 @@
   .showcase-image {
     background-color: $dark;
     position: relative;
-    width: 330px;
+    width: 295px;
     height: 400px;
-    border-radius: 5px;
+    border-radius: 20px;
     justify-self: center;
     & > img {
       position: absolute;
       border-radius: 5px;
       height: 400px;
-      left: 10px;
-      top: 10px;
+      left: 0px;
+      top: 0px;
     }
   }
 
