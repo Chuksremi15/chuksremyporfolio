@@ -68,15 +68,15 @@ p {
   background-color: $dark;
   position: relative;
   width: 375px;
-  height: 500px;
+  height: 450px;
   border-radius: 20px;
   overflow: hidden;
   & > img {
     position: absolute;
     border-radius: 5px;
-    height: 500px;
+    height: 400px;
     left: 0px;
-    top: 0px;
+    top: 50px;
   }
 }
 

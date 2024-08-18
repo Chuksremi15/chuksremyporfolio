@@ -439,15 +439,15 @@
     background-color: $dark;
     position: relative;
     width: 295px;
-    height: 400px;
+    height: 370px;
     border-radius: 20px;
     justify-self: center;
     & > img {
       position: absolute;
       border-radius: 5px;
-      height: 400px;
+      height: 350px;
       left: 0px;
-      top: 0px;
+      top: 20px;
     }
   }
 

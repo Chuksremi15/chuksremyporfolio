@@ -35,7 +35,7 @@ const Home = () => {
           </div>
 
           <div data-aos={"zoom-in"} className="showcase-image">
-            <img src="./img/chuks.png" alt="" />
+            <img src="./img/profileimgwebsite.png" alt="" />
           </div>
         </div>
       </section>
