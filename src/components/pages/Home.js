@@ -22,12 +22,11 @@ const Home = () => {
           <div data-aos={"fade-right"} className="showcase-text">
             <h1>Go further with Remy.</h1>
             <p>
-              MERN stack developer(backend heavy) and blockchain programmer. My
-              core interest in tech is in the blockchain and AI. Currently, I am
-              building carbon ENS wallet to increase the ease of use and
-              adoption of crypto wallets. Most weekends, I solve algorithms,
-              play chess and do side projects. I will thrive in an environment
-              that often pushes the limit of what's achievable.
+              Full-stack and blockchain programmer with over 4 years of
+              experience. Solid skills in HTML, CSS, Javascript, React, Redux,
+              Node.js, Solidity. Experienced project team lead. Willing to learn
+              and improve along with conventions in the ecosystem. Graduate of
+              Computer Science.
             </p>
             <a href="/#projects" className="btn-large">
               My Projects
