@@ -12,6 +12,7 @@ import Resume from "./components/pages/Resume";
 //hooks
 import ScrollToTheTop from "./components/hooks/ScrollToTheTop";
 
+//import "./index.css";
 import "./App.css";
 import "./scss/style.scss";
 

@@ -74,6 +74,10 @@ const Home = () => {
         </div>
       </section>
 
+      <div className="p-20 container mx-auto">
+        <h1 className="text-base">We have a div here</h1>
+      </div>
+
       <section className="service">
         <div className="container">
           <h1 className="services-heading">MY SKILLS</h1>
