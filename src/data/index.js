@@ -15,6 +15,26 @@ import {
 export const projectData = [
   {
     dataAos: "fade-up",
+    img: `./img/projects/clyntoapp.png`,
+    name: "Clynto",
+    description:
+      "Clynto is an on-chain lending and borrowing protocol that allows users to lend and borrow crypto assets on EVM compatible blockchain by adopting a peer-to-peer model",
+    link: "https://app.clynto.com/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Next.js", "Solidity"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/buidlguidl.png`,
+    name: "BuildGuidl Porfolio",
+    description:
+      "BuidlGuidl is a decentralized autonomous organization acting as the community and incentivization layer around scaffold-eth and speedrunethereum.com",
+    link: "https://app.buidlguidl.com/builders/0xDAADf6f9B33a1e01Be2A48765D77B116A2d5DF77",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Next.js", "Solidity"],
+  },
+  {
+    dataAos: "fade-up",
     img: `./img/projects/aimovement.jpg`,
     name: "AI Movement",
     description:
@@ -23,55 +43,36 @@ export const projectData = [
     gitLink: "https://github.com/chuksremi15",
     techStack: ["React", "Redux", "Node.js"],
   },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/kachijamesgallery.jpg`,
-    name: "Kachi James Gallery",
-    description: "Art gallery website",
-    link: "https://kachijames.com/",
-    gitLink: "https://github.com/teensnfts/TeensNFT-Website",
-    techStack: ["React", "Redux", "Node.js"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/carbonenswallet.png`,
-    name: "Carbon ENS crypto wallet",
-    description:
-      "carbon ens crypto wallet aims to make the transfer of crypto assets easier by prefixing a name the user selects to carbon.eth and registering it on ENS as a sub-name under carbon.eth.",
-    link: "https://carbonenswallet.web.app/",
-    gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Solidity", "Ethers"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/afrochives.jpg`,
-    name: "Afrochives Studio",
-    description:
-      "Afrochives Studio is a media and content studio. Our mission is  to inform, educate, entertain and inspire audiences around the world through Afro-centric stories.",
-    link: "https://afrochives.studio/",
-    gitLink: "https://github.com/chuksremi15",
-    techStack: ["React"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/contyn.jpg`,
-    name: "Contyn protocol",
-    description:
-      "Contyn.io is an nft based community with the primary aim of expanding the horizon of nfts with fashion, adding business value and viable use cases is the core aim of contyn.io.  ",
-    link: "https://contynprotocol.web.app/",
-    gitLink: "https://github.com/chuksremi15",
-    techStack: ["React", "Ethers", "Web3.js"],
-  },
-  {
-    dataAos: "fade-up",
-    img: `./img/projects/parapayhome.jpg`,
-    name: "Parapay",
-    description:
-      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. I built using React, the animations were achieved with third party libery.",
-    link: "https://parapay.io",
-    gitLink: "https://github.com/Chuksremi15",
-    techStack: ["React", "Nodejs"],
-  },
+  // {
+  //   dataAos: "fade-up",
+  //   img: `./img/projects/kachijamesgallery.jpg`,
+  //   name: "Kachi James Gallery",
+  //   description: "Art gallery website",
+  //   link: "https://kachijames.com/",
+  //   gitLink: "https://github.com/teensnfts/TeensNFT-Website",
+  //   techStack: ["React", "Redux", "Node.js"],
+  // },
+
+  // {
+  //   dataAos: "fade-up",
+  //   img: `./img/projects/afrochives.jpg`,
+  //   name: "Afrochives Studio",
+  //   description:
+  //     "Afrochives Studio is a media and content studio. Our mission is  to inform, educate, entertain and inspire audiences around the world through Afro-centric stories.",
+  //   link: "https://afrochives.studio/",
+  //   gitLink: "https://github.com/chuksremi15",
+  //   techStack: ["React"],
+  // },
+  // {
+  //   dataAos: "fade-up",
+  //   img: `./img/projects/parapayhome.jpg`,
+  //   name: "Parapay",
+  //   description:
+  //     "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. I built using React, the animations were achieved with third party libery.",
+  //   link: "https://parapay.io",
+  //   gitLink: "https://github.com/Chuksremi15",
+  //   techStack: ["React", "Nodejs"],
+  // },
 ];
 
 export const serviceData = [

@@ -22,7 +22,7 @@ const Home = () => {
           <div data-aos={"fade-right"} className="showcase-text">
             <h1>Go further with Remy.</h1>
             <p>
-              Full-stack and blockchain programmer with over 4 years of
+              Full-stack and blockchain programmer with over 5 years of
               experience. Solid skills in HTML, CSS, Javascript, React, Redux,
               Node.js, Solidity. Experienced project team lead. Willing to learn
               and improve along with conventions in the ecosystem. Graduate of
@@ -73,10 +73,6 @@ const Home = () => {
           </div> */}
         </div>
       </section>
-
-      <div className="p-20 container mx-auto">
-        <h1 className="text-base">We have a div here</h1>
-      </div>
 
       <section className="service">
         <div className="container">

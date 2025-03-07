@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/">
               {" "}
               <div className={active ? "actived navbar-logo" : "navbar-logo"}>
-                CHUKS REMY
+                EMEKA ONYEDIKA
               </div>
             </Link>
             <div
