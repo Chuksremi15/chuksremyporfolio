@@ -43,7 +43,7 @@ const Navbar = () => {
                   Process
                 </NavLink>
               </li> */}
-              <li>
+              {/* <li>
                 <NavLink
                   to="/about"
                   className="nav-links"
@@ -60,7 +60,7 @@ const Navbar = () => {
                 >
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <a href={cv} className="nav-links">
                   Résumé
