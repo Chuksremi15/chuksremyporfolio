@@ -20,6 +20,26 @@ import {
 export const projectData = [
   {
     dataAos: "fade-up",
+    img: `./img/projects/coinbox.jpg`,
+    name: "Coinbox",
+    description:
+      "Coinbox is an onramping and offramping crypto service that enables direct offramp from users wallets and onramp through cash and a cross-chain swap",
+    link: "https://coinbox.vercel.app/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["Next.js", "Express", "PGSQL"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/frenfinance.jpg`,
+    name: "Frenfinance",
+    description:
+      "FrenFinance is an on-chain lending and borrowing platform designed to include support for low- to mid-cap tokens with healthy liquidity",
+    link: "https://frenfinance.xyz/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React", "Next.js", "Solidity"],
+  },
+  {
+    dataAos: "fade-up",
     img: `./img/projects/clyntoapp.png`,
     name: "Clynto",
     description:
@@ -48,36 +68,35 @@ export const projectData = [
     gitLink: "https://github.com/chuksremi15",
     techStack: ["React", "Redux", "Node.js"],
   },
-  // {
-  //   dataAos: "fade-up",
-  //   img: `./img/projects/kachijamesgallery.jpg`,
-  //   name: "Kachi James Gallery",
-  //   description: "Art gallery website",
-  //   link: "https://kachijames.com/",
-  //   gitLink: "https://github.com/teensnfts/TeensNFT-Website",
-  //   techStack: ["React", "Redux", "Node.js"],
-  // },
-
-  // {
-  //   dataAos: "fade-up",
-  //   img: `./img/projects/afrochives.jpg`,
-  //   name: "Afrochives Studio",
-  //   description:
-  //     "Afrochives Studio is a media and content studio. Our mission is  to inform, educate, entertain and inspire audiences around the world through Afro-centric stories.",
-  //   link: "https://afrochives.studio/",
-  //   gitLink: "https://github.com/chuksremi15",
-  //   techStack: ["React"],
-  // },
-  // {
-  //   dataAos: "fade-up",
-  //   img: `./img/projects/parapayhome.jpg`,
-  //   name: "Parapay",
-  //   description:
-  //     "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. I built using React, the animations were achieved with third party libery.",
-  //   link: "https://parapay.io",
-  //   gitLink: "https://github.com/Chuksremi15",
-  //   techStack: ["React", "Nodejs"],
-  // },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/kachijamesgallery.jpg`,
+    name: "Kachi James Gallery",
+    description: "Art gallery website",
+    link: "https://kachijames.com/",
+    gitLink: "https://github.com/teensnfts/TeensNFT-Website",
+    techStack: ["React", "Redux", "Node.js"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/afrochives.jpg`,
+    name: "Afrochives Studio",
+    description:
+      "Afrochives Studio is a media and content studio. Our mission is  to inform, educate, entertain and inspire audiences around the world through Afro-centric stories.",
+    link: "https://afrochives.studio/",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/parapayhome.jpg`,
+    name: "Parapay",
+    description:
+      "Parapay is a fintech startup based in Nigeria that seeks to make easier payment transaction by introducing the use of a unique HashTag. The product have been discontinued",
+    link: "https://web.facebook.com/MyParaApp",
+    gitLink: "https://github.com/Chuksremi15",
+    techStack: ["React", "Nodejs"],
+  },
 ];
 
 export const skillCategories = {

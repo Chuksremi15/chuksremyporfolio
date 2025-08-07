@@ -32,11 +32,12 @@ const Home = () => {
                 Go further with Remy.
               </h1>
               <p className="text-lg sm:text-xl my-6 lg:my-[35px] leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Full-stack and blockchain programmer with over 5 years of
-                experience. Solid skills in HTML, CSS, Javascript, React, Redux,
-                Node.js, Solidity. Experienced project team lead. Willing to
-                learn and improve along with conventions in the ecosystem.
-                Graduate of Computer Science.
+                I solve problems with code. Full-stack and blockchain developer
+                with 5+ years of experience building scalable web applications
+                and decentralized solutions. Expertise spans React, Node.js,
+                Solidity and Rust with a proven track record leading development
+                teams. Always evolving with the tech landscape. Currently
+                Building Coinbox.
               </p>
               <a
                 href="/#projects"
@@ -146,7 +147,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Details */}
-            <div data-aos="fade-right">
+            <div data-aos="fade-up">
               <h2 className="text-2xl font-bold text-gray-800 mb-8">
                 Contact Information
               </h2>
@@ -231,7 +232,7 @@ const Home = () => {
             </div>
 
             {/* Contact Form */}
-            <div data-aos="fade-left">
+            <div data-aos="fade-up">
               <h2 className="text-2xl font-bold text-gray-800 mb-8">
                 Send a Message
               </h2>

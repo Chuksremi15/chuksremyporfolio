@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <div className="fixed top-0 left-0 border-b border-gray-700 right-0 z-50 text-white shadow-md bg-primary">
       <div className="max-w-7xl mx-auto px-4">
         <nav className="flex items-center justify-between py-4">
           <Link to="/">
-            <div className="text-xl font-bold text-gray-800 hover:text-secondary transition-colors">
+            <div className="text-xl font-bold  hover:text-secondary transition-colors">
               EMEKA ONYEDIKA
             </div>
           </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li>
               <a
                 href={cv}
-                className="block text-gray-700 hover:text-secondary transition-colors font-bold"
+                className="block  hover:text-secondary transition-colors font-bold"
                 target="_blank"
                 rel="noopener noreferrer"
               >

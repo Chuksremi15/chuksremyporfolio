@@ -10,13 +10,17 @@ export const ProjectCard = ({
   return (
     <div
       data-aos={dataAos}
-      className="bg-white rounded-lg shadow-lg overflow-hidden"
+      className="bg-white rounded-lg shadow-lg overflow-hidden relative"
     >
-      <img src={img} alt={name} className="w-full h-48 object-cover" />
+      <img
+        src={img}
+        alt={name}
+        className="w-full h-48 object-cover rounded-xl"
+      />
 
-      <div className="p-6">
+      <div className="py-6 px-4">
         <h1 className="text-xl font-bold text-gray-800 mb-3">{name}</h1>
-        <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+        <p className="text-gray-600 mb-4 h-[100px] text-sm leading-relaxed">
           {description}
         </p>
 
@@ -31,12 +35,12 @@ export const ProjectCard = ({
           ))}
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 ">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href={link}
-            className="flex-1 bg-secondary text-white text-center py-2 px-4 rounded hover:bg-opacity-90 transition-all"
+            className="flex-1 bg-secondary rounded text-white text-center py-2 px-4  hover:bg-opacity-90 transition-all"
           >
             Visit
           </a>
@@ -44,7 +48,7 @@ export const ProjectCard = ({
             target="_blank"
             rel="noopener noreferrer"
             href={gitLink}
-            className="bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition-all"
+            className="bg-gray-800 text-white rounded py-2 px-4  hover:bg-gray-700 transition-all"
           >
             <i className="fab fa-github text-lg"></i>
           </a>
