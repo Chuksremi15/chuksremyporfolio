@@ -10,6 +10,11 @@ import {
   SiGithub,
   SiMongodb,
   SiHiveBlockchain,
+  SiExpress,
+  SiMysql,
+  SiPostgresql,
+  SiRust,
+  SiSolana,
 } from "react-icons/si";
 
 export const projectData = [
@@ -75,92 +80,131 @@ export const projectData = [
   // },
 ];
 
-export const serviceData = [
-  {
-    dataAos: "fade-up",
-    icon: "FaNodeJs",
-    heading: "Node.js",
-    body: "",
-    tech: "NODE.JS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "GrReactjs",
-    heading: "React",
-    body: " ",
-    tech: "REACTJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "RiNextjsLine",
-    heading: "Next.js",
-    body: " ",
-    tech: "REACTJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiSolidity",
-    heading: "Solidity",
-    body: "",
-    tech: "SOLIDITY",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiRedux",
-    heading: "Redux",
-    body: "",
-    tech: "REDUXJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiHiveBlockchain",
-    heading: "Blockchain",
-    body: "",
-    tech: "REDUXJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "FaHardHat",
-    heading: "Hardhat",
-    body: "",
-    tech: "REDUXJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiTailwindcss",
-    heading: "Tailwindcss",
-    body: "",
-    tech: "TAILWIND",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiVuedotjs",
-    heading: "VueJS",
-    body: "",
-    tech: "VUEJS",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiGithub",
-    heading: "GIT",
-    body: "",
-    tech: "GIT",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiFirebase",
-    heading: "Firebase",
-    body: "",
-    tech: "FIREBASE",
-  },
-  {
-    dataAos: "fade-up",
-    icon: "SiMongodb",
-    heading: "Mongodb",
-    body: "",
-    tech: "MONGODB",
-  },
-];
+export const skillCategories = {
+  "Frontend Development": [
+    {
+      dataAos: "fade-up",
+      icon: "GrReactjs",
+      heading: "React",
+      body: "Building interactive user interfaces",
+      tech: "REACTJS",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "RiNextjsLine",
+      heading: "Next.js",
+      body: "Full-stack React framework",
+      tech: "NEXTJS",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiRedux",
+      heading: "Redux",
+      body: "State management for React apps",
+      tech: "REDUXJS",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiTailwindcss",
+      heading: "Tailwind CSS",
+      body: "Utility-first CSS framework",
+      tech: "TAILWIND",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiVuedotjs",
+      heading: "Vue.js",
+      body: "Progressive JavaScript framework",
+      tech: "VUEJS",
+    },
+  ],
+  "Backend Development": [
+    {
+      dataAos: "fade-up",
+      icon: "FaNodeJs",
+      heading: "Node.js",
+      body: "Server-side JavaScript runtime",
+      tech: "NODE.JS",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiExpress",
+      heading: "Express.js",
+      body: "Fast, minimalist web framework for Node.js",
+      tech: "EXPRESS",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiMongodb",
+      heading: "MongoDB",
+      body: "NoSQL database solution",
+      tech: "MONGODB",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiPostgresql",
+      heading: "PostgreSQL",
+      body: "Advanced open-source relational database",
+      tech: "POSTGRESQL",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiFirebase",
+      heading: "Firebase",
+      body: "Backend-as-a-Service platform",
+      tech: "FIREBASE",
+    },
+  ],
+  "Blockchain Development": [
+    {
+      dataAos: "fade-up",
+      icon: "SiSolidity",
+      heading: "Solidity",
+      body: "Smart contract programming language",
+      tech: "SOLIDITY",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiRust",
+      heading: "Rust",
+      body: "Systems programming language for blockchain",
+      tech: "RUST",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "FaHardHat",
+      heading: "Hardhat",
+      body: "Ethereum development environment",
+      tech: "HARDHAT",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiSolana",
+      heading: "Solana",
+      body: "High-performance blockchain platform",
+      tech: "SOLANA",
+    },
+    {
+      dataAos: "fade-up",
+      icon: "SiHiveBlockchain",
+      heading: "Blockchain",
+      body: "Decentralized application development",
+      tech: "BLOCKCHAIN",
+    },
+  ],
+  "Tools & Version Control": [
+    {
+      dataAos: "fade-up",
+      icon: "SiGithub",
+      heading: "Git & GitHub",
+      body: "Version control and collaboration",
+      tech: "GIT",
+    },
+  ],
+};
+
+// Keep the old serviceData for backward compatibility
+export const serviceData = Object.values(skillCategories).flat();
 
 // Export icon components (not JSX)
 export const iconComponents = {
@@ -176,4 +220,9 @@ export const iconComponents = {
   SiGithub,
   SiFirebase,
   SiMongodb,
+  SiExpress,
+  SiMysql,
+  SiPostgresql,
+  SiRust,
+  SiSolana,
 };

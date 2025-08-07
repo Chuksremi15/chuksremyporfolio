@@ -62,15 +62,18 @@ export const ServiceCard = ({ icon, heading, body, tech, dataAos }) => {
   return (
     <div
       data-aos={dataAos}
-      className="bg-white rounded-lg shadow-lg p-6 text-center border-t-4 border-secondary"
+      className="group bg-white hover:bg-secondary rounded-xl p-4 text-center transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-gray-100"
     >
-      <div className="text-secondary text-5xl mb-4">
+      <div className="text-secondary group-hover:text-white text-3xl mb-3 transition-colors duration-300">
         {IconComponent && <IconComponent />}
       </div>
-      <h5 className="text-lg font-bold text-gray-800">{heading}</h5>
-      {body && <p className="text-gray-600 mt-2">{body}</p>}
-      {tech && (
-        <p className="text-xs text-gray-500 mt-2 font-semibold">{tech}</p>
+      <h5 className="text-sm font-semibold text-gray-800 group-hover:text-white transition-colors duration-300">
+        {heading}
+      </h5>
+      {body && (
+        <p className="text-xs text-gray-500 group-hover:text-gray-100 mt-1 transition-colors duration-300 line-clamp-2">
+          {body}
+        </p>
       )}
     </div>
   );

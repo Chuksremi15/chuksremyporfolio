@@ -48,7 +48,7 @@ const Navbar = () => {
             <li>
               <a
                 href={cv}
-                className="block text-gray-700 hover:text-secondary transition-colors font-medium"
+                className="block text-gray-700 hover:text-secondary transition-colors font-bold"
                 target="_blank"
                 rel="noopener noreferrer"
               >
