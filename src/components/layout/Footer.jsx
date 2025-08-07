@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Left side - Branding */}
-          <div className="mb-4 md:mb-0">
+          <div className="mb-4  text-center md:text-left md:mb-0">
             <h3 className="text-xl font-bold text-white mb-2">
               Emeka Onyedika
             </h3>

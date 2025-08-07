@@ -92,13 +92,13 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               MY SKILLS
             </h1>
-            <p className="text-lg text-gray-600 text-center">
+            <p className="text-lg text-gray-600 text-center max-w-md mx-auto">
               Technologies and tools I use to bring ideas to life
             </p>
             <div className="w-24 h-1 bg-secondary mx-auto mt-6"></div>
           </div>
 
-          <div className=" mx-auto max-w-7xl grid grid-cols-4">
+          <div className=" mx-auto space-y-12 md:space-y-0 max-w-7xl md:grid md:grid-cols-4">
             {Object.entries(skillCategories).map(
               ([category, skills], categoryIndex) => (
                 <div key={categoryIndex} data-aos="fade-up">
@@ -138,7 +138,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               GET IN TOUCH
             </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-center  text-gray-600 max-w-xl mx-auto">
               Have a project in mind? Let's discuss how we can work together to
               bring your ideas to life.
             </p>
