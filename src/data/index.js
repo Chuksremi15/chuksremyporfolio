@@ -1,4 +1,4 @@
-import { FaNodeJs, FaHardHat, FaEthereum } from "react-icons/fa";
+import { FaNodeJs, FaHardHat } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
 import { RiNextjsLine } from "react-icons/ri";
 import {
@@ -78,87 +78,102 @@ export const projectData = [
 export const serviceData = [
   {
     dataAos: "fade-up",
-    src: <FaNodeJs className="service-icon" />,
+    icon: "FaNodeJs",
     heading: "Node.js",
     body: "",
     tech: "NODE.JS",
   },
   {
     dataAos: "fade-up",
-    src: <GrReactjs className="service-icon" />,
+    icon: "GrReactjs",
     heading: "React",
     body: " ",
     tech: "REACTJS",
   },
   {
     dataAos: "fade-up",
-    src: <RiNextjsLine className="service-icon" />,
+    icon: "RiNextjsLine",
     heading: "Next.js",
     body: " ",
     tech: "REACTJS",
   },
   {
     dataAos: "fade-up",
-    src: <SiSolidity className="service-icon" />,
+    icon: "SiSolidity",
     heading: "Solidity",
     body: "",
     tech: "SOLIDITY",
   },
   {
     dataAos: "fade-up",
-    src: <SiRedux className="service-icon" />,
+    icon: "SiRedux",
     heading: "Redux",
     body: "",
     tech: "REDUXJS",
   },
   {
     dataAos: "fade-up",
-    src: <SiHiveBlockchain className="service-icon" />,
+    icon: "SiHiveBlockchain",
     heading: "Blockchain",
     body: "",
     tech: "REDUXJS",
   },
   {
     dataAos: "fade-up",
-    src: <FaHardHat className="service-icon" />,
+    icon: "FaHardHat",
     heading: "Hardhat",
     body: "",
     tech: "REDUXJS",
   },
   {
     dataAos: "fade-up",
-    src: <SiTailwindcss className="service-icon" />,
+    icon: "SiTailwindcss",
     heading: "Tailwindcss",
     body: "",
     tech: "TAILWIND",
   },
   {
     dataAos: "fade-up",
-    src: <SiVuedotjs className="service-icon" />,
+    icon: "SiVuedotjs",
     heading: "VueJS",
     body: "",
     tech: "VUEJS",
   },
-
   {
     dataAos: "fade-up",
-    src: <SiGithub className="service-icon" />,
+    icon: "SiGithub",
     heading: "GIT",
     body: "",
     tech: "GIT",
   },
   {
     dataAos: "fade-up",
-    src: <SiFirebase className="service-icon" />,
+    icon: "SiFirebase",
     heading: "Firebase",
     body: "",
     tech: "FIREBASE",
   },
   {
     dataAos: "fade-up",
-    src: <SiMongodb className="service-icon" />,
+    icon: "SiMongodb",
     heading: "Mongodb",
     body: "",
     tech: "MONGODB",
   },
 ];
+
+// Export icon components (not JSX)
+export const iconComponents = {
+  FaNodeJs,
+  GrReactjs,
+  RiNextjsLine,
+  SiSolidity,
+  SiRedux,
+  SiHiveBlockchain,
+  FaHardHat,
+  SiTailwindcss,
+  SiVuedotjs,
+  SiGithub,
+  SiFirebase,
+  SiMongodb,
+};
