@@ -23,10 +23,20 @@ export const projectData = [
     img: `./img/projects/coinbox.jpg`,
     name: "Coinbox",
     description:
-      "Coinbox is an onramping and offramping crypto service that enables direct offramp from users wallets and onramp through cash and a cross-chain swap",
+      "Coinbox is a Unified Wallet-Native Platform for Swapping, Onramping, Offramping, and Lendingp",
     link: "https://coinbox.vercel.app/",
     gitLink: "https://github.com/chuksremi15",
     techStack: ["Next.js", "Express", "PGSQL"],
+  },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/lyxaxis.jpg`,
+    name: "Lyxaxis",
+    description:
+      "Lyxaxis is a multi-signature wallet with support for universal business profiles on Lukso chain",
+    link: "https://www.lyxaxis.xyz/",
+    gitLink: "https://github.com/dewdrip/lyxaxis",
+    techStack: ["React", "Next.js", "Solidity"],
   },
   {
     dataAos: "fade-up",
