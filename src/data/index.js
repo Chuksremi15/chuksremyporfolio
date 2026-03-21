@@ -18,16 +18,16 @@ import {
 } from "react-icons/si";
 
 export const projectData = [
-  // {
-  //   dataAos: "fade-up",
-  //   img: `./img/projects/coinbox.jpg`,
-  //   name: "Coinbox",
-  //   description:
-  //     "Coinbox is a Unified Wallet-Native Platform for Swapping, Onramping, Offramping, and Lendingp",
-  //   link: "https://coinbox.vercel.app/",
-  //   gitLink: "https://github.com/chuksremi15",
-  //   techStack: ["Next.js", "Express", "PGSQL"],
-  // },
+  {
+    dataAos: "fade-up",
+    img: `./img/projects/koinwise.jpg`,
+    name: "Koinwise",
+    description:
+      "A comprehensive fintech mobile application and non-custodial crypto wallet combining digital asset management with traditional finance capabilities",
+    link: "https://getkoinwise.com",
+    gitLink: "https://github.com/chuksremi15",
+    techStack: ["React Native", "Express", "PGSQL"],
+  },
   {
     dataAos: "fade-up",
     img: `./img/projects/lyxaxis.jpg`,

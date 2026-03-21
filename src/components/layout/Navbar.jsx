@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import cv from "../../chuksremicv.pdf";
+import cv from "../../onyedikaemekacv.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -20,30 +20,37 @@ const Navbar = () => {
           </Link>
 
           <div
-            onClick={handleToggle}
-            className="md:hidden flex flex-col cursor-pointer"
+            // onClick={handleToggle}
+            className="flex flex-col cursor-pointer"
           >
-            <span
-              className={`block w-6 h-0.5 bg-gray-800 transition-all ${
+            {/* <span
+              className={`block w-6 h-0.5 bg-white transition-all ${
                 active ? "rotate-45 translate-y-1.5" : ""
               }`}
             ></span>
             <span
-              className={`block w-6 h-0.5 bg-gray-800 my-1 transition-all ${
+              className={`block w-6 h-0.5 bg-white my-1 transition-all ${
                 active ? "opacity-0" : ""
               }`}
             ></span>
             <span
-              className={`block w-6 h-0.5 bg-gray-800 transition-all ${
+              className={`block w-6 h-0.5 bg-white transition-all ${
                 active ? "-rotate-45 -translate-y-1.5" : ""
               }`}
-            ></span>
+            ></span> */}
+
+            <a
+              href={cv}
+              className="block  hover:text-secondary transition-colors font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Résumé
+            </a>
           </div>
 
-          <ul
-            className={`${
-              active ? "flex" : "hidden"
-            } md:flex flex-col md:flex-row absolute md:relative top-full md:top-auto left-0 md:left-auto w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-8`}
+          {/* <ul
+            className={`flex flex-col md:flex-row absolute md:relative top-full md:top-auto left-0 md:left-auto w-full md:w-auto bg-primary md:bg-transparent shadow-md md:shadow-none p-4 md:p-0 space-y-4 md:space-y-0 md:space-x-8`}
           >
             <li>
               <a
@@ -55,7 +62,7 @@ const Navbar = () => {
                 Résumé
               </a>
             </li>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </div>

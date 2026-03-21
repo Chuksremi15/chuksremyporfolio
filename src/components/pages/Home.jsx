@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import Navbar from "../layout/Navbar";
 import Footer from "../layout/Footer";
 import { ProjectCard, ServiceCard } from "../componets/Componets";
@@ -13,10 +14,44 @@ import {
 
 const Home = () => {
   let app = useRef(null);
+  const formRef = useRef(null);
+  const [formStatus, setFormStatus] = useState({
+    loading: false,
+    success: null,
+    error: null,
+  });
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormStatus({ loading: true, success: null, error: null });
+
+    emailjs
+      .sendForm(
+        "service_8i5a6c7", // replace with your EmailJS service ID
+        "template_zqr7yaf", // replace with your EmailJS template ID
+        formRef.current,
+        "23onJtMeeTiF8Y7GB", // replace with your EmailJS public key
+      )
+      .then(() => {
+        setFormStatus({
+          loading: false,
+          success: "Message sent! I'll get back to you soon.",
+          error: null,
+        });
+        formRef.current.reset();
+      })
+      .catch(() => {
+        setFormStatus({
+          loading: false,
+          success: null,
+          error: "Something went wrong. Please try again.",
+        });
+      });
+  };
 
   return (
     <div className="min-h-screen" ref={(el) => (app = el)}>
@@ -32,12 +67,12 @@ const Home = () => {
                 Go further with Remy.
               </h1>
               <p className="text-lg sm:text-xl my-6 lg:my-[35px] leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                I solve problems with code. Full-stack and blockchain developer
-                with 5+ years of experience building scalable web applications
-                and decentralized solutions. Expertise spans React, Node.js,
-                Solidity and Rust with a proven track record leading development
-                teams. Always evolving with the tech landscape. Currently
-                Building Coinbox.
+                I engineer scalable solutions across Web2 and Web3. Full-stack
+                and blockchain developer with 6+ years of experience building
+                decentralized protocols, web and mobile applications. Expertise
+                spans React, Node.js, Solidity, and Rust, with a proven track
+                record of leading development teams. Always evolving with the
+                tech landscape. Currently building Koinwise.
               </p>
               <a
                 href="/#projects"
@@ -126,7 +161,7 @@ const Home = () => {
                     })}
                   </div>
                 </div>
-              )
+              ),
             )}
           </div>
         </div>
@@ -237,7 +272,7 @@ const Home = () => {
                 Send a Message
               </h2>
 
-              <form className="space-y-6">
+              <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
                     <label
@@ -326,11 +361,21 @@ const Home = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-secondary text-white py-3 px-6 rounded-lg font-medium hover:bg-opacity-90 transition-all duration-300 hover:shadow-lg"
+                  disabled={formStatus.loading}
+                  className="w-full bg-secondary text-white py-3 px-6 rounded-lg font-medium hover:bg-opacity-90 transition-all duration-300 hover:shadow-lg disabled:opacity-60 disabled:cursor-not-allowed"
                 >
-                  Send Message
+                  {formStatus.loading ? "Sending..." : "Send Message"}
                 </button>
               </form>
+
+              {formStatus.success && (
+                <p className="text-sm text-green-600 mt-4">
+                  {formStatus.success}
+                </p>
+              )}
+              {formStatus.error && (
+                <p className="text-sm text-red-500 mt-4">{formStatus.error}</p>
+              )}
 
               <p className="text-sm text-gray-500 mt-4">
                 * Required fields. Your information will be kept confidential.
