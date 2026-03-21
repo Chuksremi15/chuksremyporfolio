@@ -24,7 +24,7 @@ export const projectData = [
     name: "Koinwise",
     description:
       "A comprehensive fintech mobile application and non-custodial crypto wallet combining digital asset management with traditional finance capabilities",
-    link: "https://getkoinwise.com",
+    link: "https://www.getkoinwise.com/",
     gitLink: "https://github.com/chuksremi15",
     techStack: ["React Native", "Express", "PGSQL"],
   },
