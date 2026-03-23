@@ -44,7 +44,7 @@ export const projectData = [
     name: "Frenfinance",
     description:
       "FrenFinance is an on-chain lending and borrowing platform designed to include support for low- to mid-cap tokens with healthy liquidity",
-    link: "https://frenfinance.xyz/",
+    link: "https://frenfinace.web.app/",
     gitLink: "https://github.com/chuksremi15",
     techStack: ["React", "Next.js", "Solidity"],
   },
