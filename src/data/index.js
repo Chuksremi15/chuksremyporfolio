@@ -34,7 +34,7 @@ export const projectData = [
     name: "Lyxaxis",
     description:
       "Lyxaxis is a multi-signature wallet with support for universal business profiles on Lukso chain",
-    link: "https://www.lyxaxis.xyz/",
+    link: "https://lyxaxis.vercel.app/",
     gitLink: "https://github.com/dewdrip/lyxaxis",
     techStack: ["React", "Next.js", "Solidity"],
   },
